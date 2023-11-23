@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!-- Primary Meta Tags -->
+<title>Product Page Design - Polybotics</title>
+<meta name="title" content="Product Page Design - Polybotics" />
+<meta name="description" content="A simple design template for a product page of an Ecommerce website" />
+
+
+
+<!--FONTAWESOME-->
+<script src="https://kit.fontawesome.com/5d4dc46553.js" crossorigin="anonymous"></script>
+
+
+
+<!--STYLESHEETS-->
+<link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body class="fw flex jc">
+
+<div class="container fw">
+    <!--PRODUCT DETAILS-->
+    <div class="prd-details fw flex">
+        <!--PRODUCT IMAGES-->
+        <div class="prd-img-tab fw">
+            <!--MAIN DISPLAY-->
+            <div class="prd-main-img fw"><img src="./m-img1.jpg"></div>
+            <!--IMAGE LIST-->
+            <div class="prd-img-list fw flex ac">
+                <div class="prd-sub-img active"><img src="./m-img1.jpg"></div>
+                <div class="prd-sub-img"><img src="./m-img2.jpg"></div>
+                <div class="prd-sub-img"><img src="./m-img3.jpg"></div>
+                <div class="prd-sub-img"><img src="./m-img4.jpg"></div>
+            </div>
+        </div>
+        <!--PRODUCT DETAILS-->
+        <div class="prd-det-tab fw">
+            <div class="prd-category">Footwears</div>
+            <div class="prd-name">Ladies Mesh Fashion Sneakers</div>
+            <div class="prd-price">$301</div>
+            
+            <!--COLOR CHOICE-->
+            <div class="prd-tag">Choose a Color</div>
+            <div class="prd-choice-list fw flex ac">
+                <div style="--bg-color: #212121;" class="prd-color"></div>
+                <div style="--bg-color: #FF0000;" class="prd-color"></div>
+                <div style="--bg-color: #7E60F6;" class="prd-color active"></div>
+                <div style="--bg-color: #00FF00;" class="prd-color"></div>
+            </div>
+            
+            <!--SIZE CHOICE-->
+            <div class="prd-tag">Select Your Size</div>
+            <div class="prd-choice-list fw flex ac">
+                <div class="prd-size center">s</div>
+                <div class="prd-size center active">l</div>
+                <div class="prd-size center">xl</div>
+                <div class="prd-size center">xxl</div>
+            </div>
+            
+            <!--QUANTITY-->
+            <div class="prd-tag">Quantity</div>
+            <div class="prd-choice-list fw flex ac">
+                <div class="prd-qty-btn center"><i class="fa fa-minus"></i></div>
+                <div class="prd-qty center">01</div>
+                <div class="prd-qty-btn center"><i class="fa fa-plus"></i></div>
+            </div>
+            
+            <!--ACTION BUTTONS-->
+            <div class="prd-action-tab fw center">
+                <div class="prd-action-btn center save">Save To Favorite</div>
+                <div class="prd-action-btn center add">Add To Cart</div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <!--DESCRIPTION-->
+    <div class="description-tab fw">
+        <!--MENU BAR-->
+        <div class="description-menu-bar fw flex ac jsb">
+            <div class="description-menu">Description</div>
+            <div class="description-menu active">Specifications</div>
+            <div class="description-menu">Product Details</div>
+        </div>
+        
+        <!--TEXT DISPLAY-->
+        <div class="description fw">
+            <textarea class="fw fh" readonly>
+• SKU: FA203FS22LM2GNAFAMZ
+• Model: NSIYDXJ25999
+• Production Country: China
+• Weight (kg): 0.5
+• Color: Purple
+• Care Label: No exposure, no dry cleaning, no bleaching!
+• Anti-odor
+• Non-Slip
+• Hard-wearing
+• Comfortable 
+• Breathable
+            </textarea>
+        </div>
+    </div>
+    
+    <!--REVIEW-->
+    <div class="review-container fw">
+        <div class="prd-tag">Reviews (49)</div>
+        
+        <!--REVIEW LIST-->
+        <div class="review-tab fw flex ac">
+            <div class="review-img round"><img src="./review-img1.jpg"></div>
+            <div class="">
+                <div class="review-name">Gojo Satoru</div>
+                <div class="review">It came to me just as it is. lol.</div>
+            </div>
+        </div>
+        <div class="review-tab fw flex ac">
+            <div class="review-img round"><img src="./review-img2.jpg"></div>
+            <div class="">
+                <div class="review-name">Ryuomen Sukuna</div>
+                <div class="review">Work on your delivery speed, then i may consider giving a better review.</div>
+            </div>
+        </div>
+        <div class="review-tab fw flex ac">
+            <div class="review-img round"><img src="./review-img3.jpg"></div>
+            <div class="">
+                <div class="review-name">Yuta Okkutsu</div>
+                <div class="review">The product wasn't so bad.</div>
+            </div>
+        </div>
+        
+        <!--USER REVIEW-->
+        <div class="user-review-tab fw flex ac">
+            <div class="user-review-img round"><img src="./user-review-img.jpg"></div>
+            <div class="user-review-inp"><input type="text" class="fw fh" placeholder="Drop a comment on the product"></div>
+            <div class="user-review-btn center">Send</div>
+        </div>
+    </div>
+    
+    <!--SIMILAR PRODUCTS-->
+    <div class="sprd-container fw">
+        <div class="prd-tag">You May Also Like</div>
+        <!--PRODUCT LIST-->
+        <div class="sprd-list fw flex ac">
+            <div class="sprd-tab">
+                <div class="sprd-img fw"><img src="./sp-img1.jpg"></div>
+                <div class="sprd-name">ENSPIRE Wave Fashion Boost Sneakers</div>
+                <div class="sprd-det fw flex ac jsb">
+                    <div class="sprd-price">$79</div>
+                    <div class="sprd-btn center">Buy</div>
+                </div>
+            </div>
+            <div class="sprd-tab">
+                <div class="sprd-img fw"><img src="./sp-img2.jpg"></div>
+                <div class="sprd-name">Women Casual Shoes Air Cushion</div>
+                <div class="sprd-det fw flex ac jsb">
+                    <div class="sprd-price">$32</div>
+                    <div class="sprd-btn center">Buy</div>
+                </div>
+            </div>
+            <div class="sprd-tab">
+                <div class="sprd-img fw"><img src="./sp-img3.jpg"></div>
+                <div class="sprd-name">Casual Sneakers For Men</div>
+                <div class="sprd-det fw flex ac jsb">
+                    <div class="sprd-price">$56</div>
+                    <div class="sprd-btn center">Buy</div>
+                </div>
+            </div>
+            <div class="sprd-tab">
+                <div class="sprd-img fw"><img src="./sp-img4.jpg"></div>
+                <div class="sprd-name">Women's Casual Running Sneakers</div>
+                <div class="sprd-det fw flex ac jsb">
+                    <div class="sprd-price">$72</div>
+                    <div class="sprd-btn center">Buy</div>
+                </div>
+            </div>
+            <div class="sprd-tab">
+                <div class="sprd-img fw"><img src="./sp-img5.jpg"></div>
+                <div class="sprd-name">Leather Men Canvas</div>
+                <div class="sprd-det fw flex ac jsb">
+                    <div class="sprd-price">$117</div>
+                    <div class="sprd-btn center">Buy</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--SCRIPTS-->
+</body>
+</html>
